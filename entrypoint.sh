@@ -26,4 +26,4 @@ else
 fi
 
 echo "## Running ESLint"
-sh -c "$setup ./node_modules/.bin/eslint $glob --ext *.ts --ext *.tsx"
+sh -c "$setup ./node_modules/.bin/eslint $glob --ext .ts --ext .tsx"
